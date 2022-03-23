@@ -1,0 +1,91 @@
+
+/************************************************* Header ********************************************************************/
+#Header + main {margin-top:149px;}
+#Header .Border{border-bottom:1px solid #2e445b; margin-top: 28px;}
+#Header a{color:#fff;} #Header a:hover{color:#c4b480;}
+#Header .input-group{width:312px;}
+#Header .input-group .form-control{background:fff; border-color:#fff; border-radius:0px; box-shadow:none; color:#333333; font-size:12px; height:44px;} #Header .input-group .btn{background:#fff; padding:0 12px; border-radius:0px; border-color:#fff; color:#858585; font-size:15px;}
+#Header .input-group .btn:hover{color:#c4b480;}
+#Header .form-control::placeholder{color:#333333;} #Header .list-inline-item:not(:last-child) {margin-right:20px;} #Header .list-inline-item a{font-size:16px;}
+
+/***************************MainBanner *******************************/
+
+
+#Gallery .card:hover .Imgfade img{opacity: .5; filter: alpha(opacity=50); /* For IE8 and earlier */}
+#Gallery .card:hover .Imgfade{background:#992c2d !important;} #Gallery .card :hover .card-link{color:#c4b480;}
+
+.Links .list-inline-item a{color:#1241a3; font-size:20px;} .Links .list-inline-item a:hover{color:#c4b480;}
+.Links .list-inline-item:not(:last-child) {margin-right:10px;}
+.sociallinks u{text-decoration-color: #f1eee3; text-underline-offset: 2px !important;}
+
+#Gallery .card{box-shadow:0px 5px 15px rgba(0,0,0,.75); border:none; border-radius:0px;} #Gallery .card-link{font-size:35px; color:#fff;}  #Gallery .bg-danger{opacity:.9;} 
+#Gallery .card-body{position:absolute; width:100%; bottom:0px;}
+#NewArrival a {text-decoration:underline !important; text-underline-offset: 8px !important;}
+/********** Footer ***************************************************************************************************/
+#Footer {color:#fff; font-size:12px; line-height:2.2;} 
+#Footer h4{margin-bottom:20px; background:url(../images/line.png) no-repeat left bottom; padding-bottom:25px;}
+#Footer a{color:#fff;} #Footer .text-warning{font-size:15px;}
+#Footer a:hover{color:#c4b480;}
+#Footer hr{background-color:#7dbdd8; margin:0px 0px 15px 0px;}
+#Footer .copy{color:#25647f !important; font-size:12px; line-height:2;}
+#Footer .copy a{color:#25647f !important;}
+#Footer .copy a:hover{color:#c4b480 !important;} 
+
+
+/*************************************************************************************************************/
+
+@media (min-width:1200px) {
+}
+@media (min-width:992px) {
+#Header {padding:21px 0px; top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(0,0,0,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:9999; padding:10px 0px !important;}
+.Logo img {max-height:51px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition:0.5s;}
+.shrink .Logo img {max-height:40px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition:0.5s;}
+.shrink .Border{margin-top:15px !important;}
+.row.divider > [class*='col-']:before,.row.divider > [class*='col-']:after {background:#7dbdd8; bottom:42px; content:" "; left: 0; position:absolute; width:1px; top:47px;} 
+.row.divider > [class*='col-']:before {left: 0;}
+.row.divider > [class*='col-']:after {right:-1px;left:auto;}
+.row.divider > [class*='col-']:first-child:before,.row.divider > [class*='col-']:last-child:after {display:none;}
+.pdngright{padding-right:80px;} .pdngleft{padding-left:80px;}  #Header form{margin-top:12px;}
+
+}
+
+.container-new{max-width:1270px;padding-right:15px; padding-left:15px; margin:auto;}
+.container-fluid{max-width:1290px;} 
+.container{max-width:1430px;} 
+
+@media (min-width: 767.98px) {
+
+}
+
+@media (min-width: 1920px) {.pdngright{padding-right:100px;} .pdngleft{padding-left:100px;}
+.gutter-lg {margin-left:-20px!important;margin-right:-20px!important;}
+.gutter-lg div[class^="col"]{padding-left:20px!important;padding-right:20px!important;}
+}
+@media (min-width: 1600px) {.pdngright{padding-right:100px;} .pdngleft{padding-left:100px;}
+.gutter-lg {margin-left:-20px!important;margin-right:-20px!important;}
+.gutter-lg div[class^="col"]{padding-left:20px!important;padding-right:20px!important;}
+}
+
+@media (min-width: 1259.98px) and (max-width: 1459.98px) {  }
+@media (min-width: 1359.98px) and (max-width: 1459.98px) {	}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {.pdngright{padding-right:45px;} .pdngleft{padding-left:45px;} #Gallery .card-body{padding: 10px;}
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+#Header{position:static; padding:20px 0px 30px 0px; background:#101f2f !important;} #Header + main {margin-top:0px;} #Header .input-group {width: 100%;} h1, .h1 {font-size: 35px;} #Treasures .fs-27 {font-size: 20px !important;} #Gallery h3, .h3 {font-size: 20px;} #Gallery .card-body{padding: 10px;}
+
+}
+@media (max-width: 767.98px) {	
+#Header{position:static; padding:20px 0px 30px 0px;} #Header + main {margin-top:0px;}  #Header .input-group {width: 100%;} h1, .h1 {font-size: 35px;} #Treasures .fs-27 {font-size: 20px !important;} .Logo{padding-bottom:20px;} #Gallery .card-body{padding: 10px;}
+}
+
+@media (max-width: 576px){ h1, .h1 {font-size: 25px;} #Footer h4 {margin-bottom: 15px;background: url(../images/line.png) no-repeat center bottom;padding-bottom: 15px;}
+ 
+}
+
+@media (max-width: 479px) {}
